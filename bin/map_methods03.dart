@@ -2,9 +2,13 @@
 Delete the "color" key from the car data map
 */
 
-void main() {}
-
 Map func(Map data) {
-  //youre code here
+  //your code here
+  data.remove('color');
   return data;
+}
+
+void main(){
+  Map data=<String,String>{'name': 'Mustang', 'color': 'silver', 'price': 'Salohiddin'};
+  print(func(data));
 }
