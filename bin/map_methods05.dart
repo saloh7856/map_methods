@@ -2,8 +2,8 @@
 Map func(Map <String,String>data) {
   //your code here
   data.remove('last_name');
-  
-  data['surname']='kerry';
+
+  data['surname']='Kerry';
   return data;
 }
 
