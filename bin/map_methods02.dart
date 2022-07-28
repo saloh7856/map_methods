@@ -2,13 +2,14 @@
 Car details will be given to you in map view, change the car price for it
 */
 
-void main(){
-  print(func({'salom':'hello','lion':100},700));
-}
 
 Map func(Map data, int cost) {
   //your code here
-  data['lion']=cost;
+  data['price']=cost;
 
   return data;
+}
+
+void main(){
+  print(func({'name': 'Mustang', 'color': 'silver', 'price': 8000},10000));
 }
